@@ -20,6 +20,9 @@ obj-m += delay_exec.o
 obj-m += procfs_demo1.o
 obj-m += procfs_demo2.o
 
+# notifer
+obj-m += notifier.o
+
 else
 
 VERSION = $(shell cat version)
