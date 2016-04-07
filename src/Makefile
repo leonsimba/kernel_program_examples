@@ -16,8 +16,9 @@ obj-m := timer.o
 obj-m += hrtimer.o
 obj-m += delay_exec.o
 
-# timer
+# procfs
 obj-m += procfs_demo1.o
+obj-m += procfs_demo2.o
 
 else
 
