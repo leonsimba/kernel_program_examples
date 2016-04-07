@@ -13,6 +13,7 @@ ifneq ($(KERNELRELEASE),)
 
 # timer
 obj-m := timer.o
+obj-m += hrtimer.o
 
 else
 
