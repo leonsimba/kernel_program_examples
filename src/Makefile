@@ -14,6 +14,7 @@ ifneq ($(KERNELRELEASE),)
 # timer
 obj-m := timer.o
 obj-m += hrtimer.o
+obj-m += delay_exec.o
 
 else
 
