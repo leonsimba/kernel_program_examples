@@ -16,6 +16,9 @@ obj-m := timer.o
 obj-m += hrtimer.o
 obj-m += delay_exec.o
 
+# timer
+obj-m += procfs_demo1.o
+
 else
 
 VERSION = $(shell cat version)
