@@ -1,0 +1,514 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_SIZE	debugfs_demo.c	23;"	d	file:
+CHANNEL_HTMASK	htable_variable_length.c	17;"	d	file:
+CHANNEL_HTSIZE	htable_variable_length.c	16;"	d	file:
+CHILDLESS_ATTR	configfs_example_macros.c	61;"	d	file:
+CHILDLESS_ATTR_RO	configfs_example_macros.c	63;"	d	file:
+DATA_NUM	seqfile_demo.c	21;"	d	file:
+DEBFLAGS	Makefile	/^  DEBFLAGS = -O -g # "-O" is needed to expand inlines$/;"	m
+DEBFLAGS	Makefile	/^  DEBFLAGS = -O2$/;"	m
+DEBFLAGS	fs_demo/Makefile	/^  DEBFLAGS = -O -g # "-O" is needed to expand inlines$/;"	m
+DEBFLAGS	fs_demo/Makefile	/^  DEBFLAGS = -O2$/;"	m
+DELAY_BUSY	delay_exec_demo.c	/^	DELAY_BUSY,$/;"	e	enum:delay_method	file:
+DELAY_SCHED	delay_exec_demo.c	/^	DELAY_SCHED,$/;"	e	enum:delay_method	file:
+DELAY_SCHEDTIMEOUT	delay_exec_demo.c	/^	DELAY_SCHEDTIMEOUT$/;"	e	enum:delay_method	file:
+DELAY_WAITQUEUE	delay_exec_demo.c	/^	DELAY_WAITQUEUE,$/;"	e	enum:delay_method	file:
+DESC_MAXLEN	mod_param_demo.c	27;"	d	file:
+HTABLE_MASK	htable_fix_length.c	27;"	d	file:
+HTABLE_SIZE	htable_fix_length.c	26;"	d	file:
+KDIR	mod_symbol/Makefile	/^KDIR  := \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	Makefile	/^KERNELDIR ?= \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+KERNELDIR	fs_demo/Makefile	/^KERNELDIR ?= \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+MAX_COOKIE_LENGTH	procfs_demo1.c	19;"	d	file:
+MAX_NUM	mod_param_demo.c	31;"	d	file:
+MY_EVENT1	notifier_demo.c	/^	MY_EVENT1,$/;"	e	enum:__anon2	file:
+MY_EVENT2	notifier_demo.c	/^	MY_EVENT2,$/;"	e	enum:__anon2	file:
+MY_MAX_SIZE	sysctl_demo.c	16;"	d	file:
+MY_SYSCTL_ROOT	sysctl_demo.c	78;"	d	file:
+MY_SYSCTL_ROOT	sysctl_demo.c	87;"	d	file:
+MY_SYSCTL_STRING	sysctl_demo.c	/^	MY_SYSCTL_STRING = 4,$/;"	e	enum:__anon3	file:
+MY_SYSCTL_VAL1	sysctl_demo.c	/^	MY_SYSCTL_VAL1 = 1,$/;"	e	enum:__anon3	file:
+MY_SYSCTL_VAL2	sysctl_demo.c	/^	MY_SYSCTL_VAL2 = 2,$/;"	e	enum:__anon3	file:
+MY_SYSCTL_VAL3	sysctl_demo.c	/^	MY_SYSCTL_VAL3 = 3,$/;"	e	enum:__anon3	file:
+NAME_LENGTH	htable_fix_length.c	25;"	d	file:
+PMD	mod_symbol/Makefile	/^PMD   := $(shell pwd)$/;"	m
+PROCFS_MAX_SIZE	procfs_demo2.c	21;"	d	file:
+PROC_ENTRY_FILENAME	procfs_demo2.c	20;"	d	file:
+PWD	Makefile	/^PWD       := $(shell pwd)$/;"	m
+PWD	fs_demo/Makefile	/^PWD       := $(shell pwd)$/;"	m
+Qdisc_class_common	htable_variable_length.c	/^struct Qdisc_class_common$/;"	s	file:
+Qdisc_class_hash	htable_variable_length.c	/^struct Qdisc_class_hash {$/;"	s	file:
+RETRY_NUM	notifier_netdevice_demo.c	8;"	d	file:
+VERSION	Makefile	/^VERSION = $(shell cat version)$/;"	m
+VERSION	fs_demo/Makefile	/^VERSION = $(shell cat version)$/;"	m
+Version	lddbus.c	/^static char *Version = "$Revision: 1.9 $";$/;"	v	file:
+a_show	kset_demo.c	/^a_show(struct demo_obj *demo_obj, struct demo_attribute *attr,$/;"	f	file:
+a_store	kset_demo.c	/^a_store(struct demo_obj *demo_obj, struct demo_attribute *attr, const char *buf, size_t count)$/;"	f	file:
+array	mod_param_demo.c	/^static int array[MAX_NUM];$/;"	v	file:
+attr	configfs_example_explicit.c	/^	struct configfs_attribute attr;$/;"	m	struct:childless_attribute	typeref:struct:childless_attribute::configfs_attribute	file:
+attr	kset_demo.c	/^	struct attribute attr;$/;"	m	struct:demo_attribute	typeref:struct:demo_attribute::attribute	file:
+attr_group	kobject_demo.c	/^static struct attribute_group attr_group = {$/;"	v	typeref:struct:attribute_group	file:
+attrs	kobject_demo.c	/^static struct attribute *attrs[] = {$/;"	v	typeref:struct:attribute	file:
+avmi_channel_find_by_name	htable_variable_length.c	/^static struct avmi_channel *avmi_channel_find_by_name(char *name, size_t name_len)$/;"	f	file:
+b_show	kobject_demo.c	/^static ssize_t b_show(struct kobject *kobj, struct kobj_attribute *attr,$/;"	f	file:
+b_store	kobject_demo.c	/^static ssize_t b_store(struct kobject *kobj, struct kobj_attribute *attr,$/;"	f	file:
+bar	kobject_demo.c	/^static int bar;$/;"	v	file:
+bar	kset_demo.c	/^	int bar;$/;"	m	struct:demo_obj	file:
+bar	notifier_demo.c	/^	int bar;$/;"	m	struct:my_data	file:
+bar_attribute	kobject_demo.c	/^static struct kobj_attribute bar_attribute =$/;"	v	typeref:struct:kobj_attribute	file:
+bar_attribute	kset_demo.c	/^static struct demo_attribute bar_attribute = __ATTR(bar, 0666, a_show, a_store);$/;"	v	typeref:struct:demo_attribute	file:
+bar_exit	mod_symbol/bar/bar.c	/^module_exit(bar_exit);$/;"	v
+bar_exit	mod_symbol/bar/bar.c	/^static void __exit bar_exit(void)$/;"	f	file:
+bar_hello_world	mod_symbol/bar/bar.c	/^EXPORT_SYMBOL(bar_hello_world);$/;"	v
+bar_hello_world	mod_symbol/bar/bar.c	/^void bar_hello_world(void)$/;"	f
+bar_init	mod_symbol/bar/bar.c	/^module_init(bar_init);$/;"	v
+bar_init	mod_symbol/bar/bar.c	/^static int __init bar_init(void)$/;"	f	file:
+bar_obj	kset_demo.c	/^static struct demo_obj *bar_obj;$/;"	v	typeref:struct:demo_obj	file:
+baz	kobject_demo.c	/^static int baz;$/;"	v	file:
+baz	kset_demo.c	/^	int baz;$/;"	m	struct:demo_obj	file:
+baz_attribute	kobject_demo.c	/^static struct kobj_attribute baz_attribute =$/;"	v	typeref:struct:kobj_attribute	file:
+baz_attribute	kset_demo.c	/^static struct demo_attribute baz_attribute = __ATTR(baz, 0666, a_show, a_store);$/;"	v	typeref:struct:demo_attribute	file:
+baz_obj	kset_demo.c	/^static struct demo_obj *baz_obj;$/;"	v	typeref:struct:demo_obj	file:
+book_desc	mod_param_demo.c	/^static char book_desc[DESC_MAXLEN]= "none description";$/;"	v	file:
+book_num	mod_param_demo.c	/^static int book_num = 10;$/;"	v	file:
+book_type	mod_param_demo.c	/^static char *book_type = "history";$/;"	v	file:
+buf	file_demo.c	/^static char buf[] = "hello world";$/;"	v	file:
+buf1	file_demo.c	/^static char buf1[32];$/;"	v	file:
+channel_delete_by_name	htable_variable_length.c	/^static void channel_delete_by_name(struct avmi_channel *ch)$/;"	f	file:
+channel_htable	htable_variable_length.c	/^static struct hlist_head channel_htable[CHANNEL_HTSIZE];$/;"	v	typeref:struct:hlist_head	file:
+channel_insert_by_name	htable_variable_length.c	/^static long channel_insert_by_name(struct avmi_channel *new_ch)$/;"	f	file:
+channel_name_key	htable_variable_length.c	/^static __u32 channel_name_key(char *name, size_t name_len)$/;"	f	file:
+childless	configfs_example_explicit.c	/^struct childless {$/;"	s	file:
+childless	configfs_example_macros.c	/^CONFIGFS_ATTR_OPS(childless);$/;"	v
+childless	configfs_example_macros.c	/^CONFIGFS_ATTR_STRUCT(childless);$/;"	v
+childless	configfs_example_macros.c	/^struct childless {$/;"	s	file:
+childless_attr_description	configfs_example_explicit.c	/^static struct childless_attribute childless_attr_description = {$/;"	v	typeref:struct:childless_attribute	file:
+childless_attr_show	configfs_example_explicit.c	/^static ssize_t childless_attr_show(struct config_item *item,$/;"	f	file:
+childless_attr_showme	configfs_example_explicit.c	/^static struct childless_attribute childless_attr_showme = {$/;"	v	typeref:struct:childless_attribute	file:
+childless_attr_store	configfs_example_explicit.c	/^static ssize_t childless_attr_store(struct config_item *item,$/;"	f	file:
+childless_attr_storeme	configfs_example_explicit.c	/^static struct childless_attribute childless_attr_storeme = {$/;"	v	typeref:struct:childless_attribute	file:
+childless_attribute	configfs_example_explicit.c	/^struct childless_attribute {$/;"	s	file:
+childless_attrs	configfs_example_explicit.c	/^static struct configfs_attribute *childless_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+childless_attrs	configfs_example_macros.c	/^static struct configfs_attribute *childless_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+childless_description_read	configfs_example_explicit.c	/^static ssize_t childless_description_read(struct childless *childless,$/;"	f	file:
+childless_description_read	configfs_example_macros.c	/^static ssize_t childless_description_read(struct childless *childless,$/;"	f	file:
+childless_item_ops	configfs_example_explicit.c	/^static struct configfs_item_operations childless_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+childless_item_ops	configfs_example_macros.c	/^static struct configfs_item_operations childless_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+childless_showme_read	configfs_example_explicit.c	/^static ssize_t childless_showme_read(struct childless *childless,$/;"	f	file:
+childless_showme_read	configfs_example_macros.c	/^static ssize_t childless_showme_read(struct childless *childless,$/;"	f	file:
+childless_storeme_read	configfs_example_explicit.c	/^static ssize_t childless_storeme_read(struct childless *childless,$/;"	f	file:
+childless_storeme_read	configfs_example_macros.c	/^static ssize_t childless_storeme_read(struct childless *childless,$/;"	f	file:
+childless_storeme_write	configfs_example_explicit.c	/^static ssize_t childless_storeme_write(struct childless *childless,$/;"	f	file:
+childless_storeme_write	configfs_example_macros.c	/^static ssize_t childless_storeme_write(struct childless *childless,$/;"	f	file:
+childless_subsys	configfs_example_explicit.c	/^static struct childless childless_subsys = {$/;"	v	typeref:struct:childless	file:
+childless_subsys	configfs_example_macros.c	/^static struct childless childless_subsys = {$/;"	v	typeref:struct:childless	file:
+childless_type	configfs_example_explicit.c	/^static struct config_item_type childless_type = {$/;"	v	typeref:struct:config_item_type	file:
+childless_type	configfs_example_macros.c	/^static struct config_item_type childless_type = {$/;"	v	typeref:struct:config_item_type	file:
+classid	htable_variable_length.c	/^	u32                     classid;$/;"	m	struct:Qdisc_class_common	file:
+clean_lo_refcnt_exit	notifier_netdevice_demo.c	/^module_exit(clean_lo_refcnt_exit);$/;"	v
+clean_lo_refcnt_exit	notifier_netdevice_demo.c	/^static void __exit clean_lo_refcnt_exit(void)$/;"	f	file:
+clean_lo_refcnt_init	notifier_netdevice_demo.c	/^module_init(clean_lo_refcnt_init);$/;"	v
+clean_lo_refcnt_init	notifier_netdevice_demo.c	/^static int __init clean_lo_refcnt_init(void)$/;"	f	file:
+clean_loopback_notifier	notifier_netdevice_demo.c	/^static struct notifier_block clean_loopback_notifier  = {$/;"	v	typeref:struct:notifier_block	file:
+clean_loopback_refcnt	notifier_netdevice_demo.c	/^static int clean_loopback_refcnt(struct notifier_block *nb, unsigned long event, void *v)$/;"	f	file:
+configfs_example_exit	configfs_example_explicit.c	/^module_exit(configfs_example_exit);$/;"	v
+configfs_example_exit	configfs_example_explicit.c	/^static void __exit configfs_example_exit(void)$/;"	f	file:
+configfs_example_exit	configfs_example_macros.c	/^module_exit(configfs_example_exit);$/;"	v
+configfs_example_exit	configfs_example_macros.c	/^static void __exit configfs_example_exit(void)$/;"	f	file:
+configfs_example_init	configfs_example_explicit.c	/^module_init(configfs_example_init);$/;"	v
+configfs_example_init	configfs_example_explicit.c	/^static int __init configfs_example_init(void)$/;"	f	file:
+configfs_example_init	configfs_example_macros.c	/^module_init(configfs_example_init);$/;"	v
+configfs_example_init	configfs_example_macros.c	/^static int __init configfs_example_init(void)$/;"	f	file:
+cookie_index	procfs_demo1.c	/^static int cookie_index;  \/\/ Index to write next fortune$/;"	v	file:
+cookie_pot	procfs_demo1.c	/^static char *cookie_pot;  \/\/ Space for fortune strings$/;"	v	file:
+count	htable_fix_length.c	/^	atomic_t count; 		\/* reference count *\/$/;"	m	struct:my_item	file:
+create_demo_obj	kset_demo.c	/^static struct demo_obj *create_demo_obj(const char *name, const struct kset *kset)$/;"	f	file:
+ct_file_ops	seqfile_demo.c	/^static struct file_operations ct_file_ops = {$/;"	v	typeref:struct:file_operations	file:
+ct_open	seqfile_demo.c	/^static int ct_open(struct inode *inode, struct file *file)$/;"	f	file:
+curtime_currentime	curtime_demo.c	/^int curtime_currentime(char *buf, char **start, off_t offset,$/;"	f
+curtime_demo_cleanup	curtime_demo.c	/^module_exit(curtime_demo_cleanup);$/;"	v
+curtime_demo_cleanup	curtime_demo.c	/^static void __exit curtime_demo_cleanup(void)$/;"	f	file:
+curtime_demo_init	curtime_demo.c	/^module_init(curtime_demo_init);$/;"	v
+curtime_demo_init	curtime_demo.c	/^static int __init curtime_demo_init(void)$/;"	f	file:
+data	rbtree_demo.c	/^	struct my_data data;$/;"	m	struct:xnet_user_ticket	typeref:struct:xnet_user_ticket::my_data	file:
+data	seqfile_demo.c	/^static struct my_data *data;$/;"	v	typeref:struct:my_data	file:
+data	timer_demo.c	/^static struct my_data *data;$/;"	v	typeref:struct:my_data	file:
+debugfs_demo_exit	debugfs_demo.c	/^module_exit(debugfs_demo_exit);$/;"	v
+debugfs_demo_exit	debugfs_demo.c	/^static void __exit debugfs_demo_exit(void)$/;"	f	file:
+debugfs_demo_init	debugfs_demo.c	/^module_init(debugfs_demo_init);$/;"	v
+debugfs_demo_init	debugfs_demo.c	/^static int __init debugfs_demo_init(void)$/;"	f	file:
+debugfs_demo_root	debugfs_demo.c	/^static struct dentry *debugfs_demo_root;$/;"	v	typeref:struct:dentry	file:
+delay	delay_exec_demo.c	/^int delay = HZ;$/;"	v
+delay_exec_demo_exit	delay_exec_demo.c	/^module_exit(delay_exec_demo_exit);$/;"	v
+delay_exec_demo_exit	delay_exec_demo.c	/^static void __exit delay_exec_demo_exit(void)$/;"	f	file:
+delay_exec_demo_init	delay_exec_demo.c	/^module_init(delay_exec_demo_init);$/;"	v
+delay_exec_demo_init	delay_exec_demo.c	/^static int __init delay_exec_demo_init(void)$/;"	f	file:
+delay_method	delay_exec_demo.c	/^enum delay_method {$/;"	g	file:
+delay_method_funcs	delay_exec_demo.c	/^int delay_method_funcs(char *buf, char **start, off_t offset,$/;"	f
+demo_attribute	kset_demo.c	/^struct demo_attribute {$/;"	s	file:
+demo_obj	kset_demo.c	/^static struct demo_obj *demo_obj;$/;"	v	typeref:struct:demo_obj	file:
+demo_obj	kset_demo.c	/^struct demo_obj {$/;"	s	file:
+destroy_demo_obj	kset_demo.c	/^static void destroy_demo_obj(struct demo_obj *foo)$/;"	f	file:
+dev	lddbus.h	/^	struct device dev;$/;"	m	struct:ldd_device	typeref:struct:ldd_device::device
+driver	lddbus.h	/^	struct device_driver driver;$/;"	m	struct:ldd_driver	typeref:struct:ldd_driver::device_driver
+driver	lddbus.h	/^	struct ldd_driver *driver;$/;"	m	struct:ldd_device	typeref:struct:ldd_device::ldd_driver
+event_item	eventfd_demo.c	/^struct event_item {$/;"	s	file:
+eventfd	eventfd_demo.c	/^	struct eventfd_ctx *eventfd;$/;"	m	struct:event_item	typeref:struct:event_item::eventfd_ctx	file:
+eventfd_demo_exit	eventfd_demo.c	/^module_exit(eventfd_demo_exit);$/;"	v
+eventfd_demo_exit	eventfd_demo.c	/^static void __exit eventfd_demo_exit(void)$/;"	f	file:
+eventfd_demo_init	eventfd_demo.c	/^module_init(eventfd_demo_init);$/;"	v
+eventfd_demo_init	eventfd_demo.c	/^static int __init eventfd_demo_init(void)$/;"	f	file:
+example_kobj	kobject_demo.c	/^static struct kobject *example_kobj;$/;"	v	typeref:struct:kobject	file:
+example_subsys	configfs_example_explicit.c	/^static struct configfs_subsystem *example_subsys[] = {$/;"	v	typeref:struct:configfs_subsystem	file:
+example_subsys	configfs_example_macros.c	/^static struct configfs_subsystem *example_subsys[] = {$/;"	v	typeref:struct:configfs_subsystem	file:
+exit_v9fs	fs_demo/myfs.c	/^static void __exit exit_v9fs(void)$/;"	f	file:
+fd	fd_to_path.c	/^static uint fd = 1;$/;"	v	file:
+file_c_fops	debugfs_demo.c	/^struct file_operations file_c_fops = {$/;"	v	typeref:struct:file_operations
+file_demo_exit	file_demo.c	/^module_exit(file_demo_exit);$/;"	v
+file_demo_exit	file_demo.c	/^static void __exit file_demo_exit(void)$/;"	f	file:
+file_demo_init	file_demo.c	/^module_init(file_demo_init);$/;"	v
+file_demo_init	file_demo.c	/^static int __init file_demo_init(void)$/;"	f	file:
+filec_open	debugfs_demo.c	/^static int filec_open(struct inode *inode, struct file *filp)$/;"	f	file:
+filec_read	debugfs_demo.c	/^filec_read(struct file *filp, char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+filec_write	debugfs_demo.c	/^filec_write(struct file *filp, const char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+flag	waitqueue_demo.c	/^static int flag = 0;$/;"	v	file:
+foo	kobject_demo.c	/^static int foo;$/;"	v	file:
+foo	kset_demo.c	/^	int foo;$/;"	m	struct:demo_obj	file:
+foo	notifier_demo.c	/^	int foo;$/;"	m	struct:my_data	file:
+foo_attr_show	kset_demo.c	/^foo_attr_show(struct kobject *kobj, struct attribute *attr, char *buf)$/;"	f	file:
+foo_attr_store	kset_demo.c	/^foo_attr_store(struct kobject *kobj, struct attribute *attr, const char *buf, size_t len)$/;"	f	file:
+foo_attribute	kobject_demo.c	/^static struct kobj_attribute foo_attribute = __ATTR(foo, 0666, foo_show, foo_store);$/;"	v	typeref:struct:kobj_attribute	file:
+foo_attribute	kset_demo.c	/^static struct demo_attribute foo_attribute = __ATTR(foo, 0666, a_show, a_store);$/;"	v	typeref:struct:demo_attribute	file:
+foo_default_attrs	kset_demo.c	/^static struct attribute *foo_default_attrs[] = {$/;"	v	typeref:struct:attribute	file:
+foo_exit	mod_symbol/foo/foo.c	/^module_exit(foo_exit);$/;"	v
+foo_exit	mod_symbol/foo/foo.c	/^static void __exit foo_exit(void)$/;"	f	file:
+foo_init	mod_symbol/foo/foo.c	/^module_init(foo_init);$/;"	v
+foo_init	mod_symbol/foo/foo.c	/^static int __init foo_init(void)$/;"	f	file:
+foo_ktype	kset_demo.c	/^static struct kobj_type foo_ktype = {$/;"	v	typeref:struct:kobj_type	file:
+foo_release	kset_demo.c	/^static void foo_release(struct kobject *kobj)$/;"	f	file:
+foo_show	kobject_demo.c	/^foo_show(struct kobject *kobj, struct kobj_attribute *attr, char *buf)$/;"	f	file:
+foo_store	kobject_demo.c	/^foo_store(struct kobject *kobj, struct kobj_attribute *attr, const char *buf, size_t count)$/;"	f	file:
+foo_sysfs_ops	kset_demo.c	/^static struct sysfs_ops foo_sysfs_ops = {$/;"	v	typeref:struct:sysfs_ops	file:
+fortune_read	procfs_demo1.c	/^fortune_read(char *page, char **start, off_t off, int count, int *eof, void *data)$/;"	f	file:
+fortune_write	procfs_demo1.c	/^fortune_write(struct file *filp, const char __user *buff, unsigned long len, void *data)$/;"	f	file:
+get_file_pathname	fd_to_path.c	/^static int get_file_pathname(struct task_struct *task, int fd)$/;"	f	file:
+get_task_struct_by_pid	fd_to_path.c	/^static struct task_struct * get_task_struct_by_pid(pid_t pid)$/;"	f	file:
+group	configfs_example_explicit.c	/^	struct config_group group;$/;"	m	struct:simple_children	typeref:struct:simple_children::config_group	file:
+group	configfs_example_macros.c	/^	struct config_group group;$/;"	m	struct:simple_children	typeref:struct:simple_children::config_group	file:
+group_children_attr_description	configfs_example_explicit.c	/^static struct configfs_attribute group_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_attr_description	configfs_example_macros.c	/^static struct configfs_attribute group_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_attr_show	configfs_example_explicit.c	/^static ssize_t group_children_attr_show(struct config_item *item,$/;"	f	file:
+group_children_attr_show	configfs_example_macros.c	/^static ssize_t group_children_attr_show(struct config_item *item,$/;"	f	file:
+group_children_attrs	configfs_example_explicit.c	/^static struct configfs_attribute *group_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_attrs	configfs_example_macros.c	/^static struct configfs_attribute *group_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+group_children_group_ops	configfs_example_explicit.c	/^static struct configfs_group_operations group_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+group_children_group_ops	configfs_example_macros.c	/^static struct configfs_group_operations group_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+group_children_item_ops	configfs_example_explicit.c	/^static struct configfs_item_operations group_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+group_children_item_ops	configfs_example_macros.c	/^static struct configfs_item_operations group_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+group_children_make_group	configfs_example_explicit.c	/^static struct config_group *group_children_make_group(struct config_group *group, const char *name)$/;"	f	file:
+group_children_make_group	configfs_example_macros.c	/^static struct config_group *group_children_make_group(struct config_group *group, const char *name)$/;"	f	file:
+group_children_subsys	configfs_example_explicit.c	/^static struct configfs_subsystem group_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+group_children_subsys	configfs_example_macros.c	/^static struct configfs_subsystem group_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+group_children_type	configfs_example_explicit.c	/^static struct config_item_type group_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+group_children_type	configfs_example_macros.c	/^static struct config_item_type group_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+hash	htable_variable_length.c	/^	struct hlist_head 	*hash;$/;"	m	struct:Qdisc_class_hash	typeref:struct:Qdisc_class_hash::hlist_head	file:
+hash_name	htable_fix_length.c	/^static __u32 hash_name(char *name, size_t name_len)$/;"	f	file:
+hash_table_alloc	htable_variable_length.c	/^static struct hlist_head *hash_table_alloc(unsigned int n)$/;"	f	file:
+hash_table_free	htable_variable_length.c	/^static void hash_table_free(struct hlist_head *h, unsigned int n)$/;"	f	file:
+hash_table_grow	htable_variable_length.c	/^EXPORT_SYMBOL(hash_table_grow);$/;"	v
+hash_table_grow	htable_variable_length.c	/^void hash_table_grow(struct Qdisc *sch, struct Qdisc_class_hash *clhash)$/;"	f
+hash_table_init	htable_variable_length.c	/^EXPORT_SYMBOL(hash_table_init);$/;"	v
+hash_table_init	htable_variable_length.c	/^int hash_table_init(struct Qdisc_class_hash *clhash)$/;"	f
+hashelems	htable_variable_length.c	/^	unsigned int            hashelems;$/;"	m	struct:Qdisc_class_hash	file:
+hashmask	htable_variable_length.c	/^	unsigned int            hashmask;$/;"	m	struct:Qdisc_class_hash	file:
+hashsize	htable_variable_length.c	/^	unsigned int            hashsize;$/;"	m	struct:Qdisc_class_hash	file:
+hello	debugfs_demo.c	/^static char hello[BUF_SIZE] = "Hello world!\\n";$/;"	v	file:
+hnode	htable_fix_length.c	/^	struct hlist_node  hnode; 	\/* this is linked into the names hashtable *\/$/;"	m	struct:my_item	typeref:struct:my_item::hlist_node	file:
+hnode	htable_variable_length.c	/^	struct hlist_node       hnode;$/;"	m	struct:Qdisc_class_common	typeref:struct:Qdisc_class_common::hlist_node	file:
+hrtimer_demo_handle	hrtimer_demo.c	/^hrtimer_demo_handle(struct hrtimer *timer)$/;"	f	file:
+htable_fix_length_demo_exit	htable_fix_length.c	/^module_exit(htable_fix_length_demo_exit);$/;"	v
+htable_fix_length_demo_exit	htable_fix_length.c	/^static void __exit htable_fix_length_demo_exit(void)$/;"	f	file:
+htable_fix_length_demo_init	htable_fix_length.c	/^module_init(htable_fix_length_demo_init);$/;"	v
+htable_fix_length_demo_init	htable_fix_length.c	/^static int __init htable_fix_length_demo_init(void)$/;"	f	file:
+htable_simple_test	htable_fix_length.c	/^static int htable_simple_test(void)$/;"	f	file:
+htable_size	htable_fix_length.c	/^static unsigned int htable_size = 0;$/;"	v	file:
+idr_idpool	idr_demo.c	/^struct idr_idpool {$/;"	s	file:
+idr_idpool_check	idr_demo.c	/^EXPORT_SYMBOL(idr_idpool_check);$/;"	v
+idr_idpool_check	idr_demo.c	/^int idr_idpool_check(int id, struct idr_idpool *p)$/;"	f
+idr_idpool_create	idr_demo.c	/^EXPORT_SYMBOL(idr_idpool_create);$/;"	v
+idr_idpool_create	idr_demo.c	/^struct idr_idpool *idr_idpool_create(void)$/;"	f
+idr_idpool_destroy	idr_demo.c	/^EXPORT_SYMBOL(idr_idpool_destroy);$/;"	v
+idr_idpool_destroy	idr_demo.c	/^void idr_idpool_destroy(struct idr_idpool *p)$/;"	f
+idr_idpool_get	idr_demo.c	/^EXPORT_SYMBOL(idr_idpool_get);$/;"	v
+idr_idpool_get	idr_demo.c	/^int idr_idpool_get(struct idr_idpool *p, void *ptr)$/;"	f
+idr_idpool_put	idr_demo.c	/^EXPORT_SYMBOL(idr_idpool_put);$/;"	v
+idr_idpool_put	idr_demo.c	/^void idr_idpool_put(int id, struct idr_idpool *p)$/;"	f
+init_hash_table	htable_variable_length.c	/^static void init_hash_table(void)$/;"	f	file:
+init_my_fs	fs_demo/myfs.c	/^static int __init init_my_fs(void)$/;"	f	file:
+inner	mod_param_demo.c	/^static uint inner = 1;$/;"	v	file:
+item	configfs_example_explicit.c	/^	struct config_item item;$/;"	m	struct:simple_child	typeref:struct:simple_child::config_item	file:
+item	configfs_example_macros.c	/^	struct config_item item;$/;"	m	struct:simple_child	typeref:struct:simple_child::config_item	file:
+kernel_thread_demo_exit	kernel_thread_demo.c	/^module_exit(kernel_thread_demo_exit);$/;"	v
+kernel_thread_demo_exit	kernel_thread_demo.c	/^static void __exit kernel_thread_demo_exit(void)$/;"	f	file:
+kernel_thread_demo_init	kernel_thread_demo.c	/^module_init(kernel_thread_demo_init);$/;"	v
+kernel_thread_demo_init	kernel_thread_demo.c	/^static int __init kernel_thread_demo_init(void)$/;"	f	file:
+kernel_thread_demo_init	tmp.c	/^module_init(kernel_thread_demo_init);$/;"	v
+kernel_thread_demo_init	tmp.c	/^static int __init kernel_thread_demo_init(void)$/;"	f	file:
+kobj	kset_demo.c	/^	struct kobject kobj;$/;"	m	struct:demo_obj	typeref:struct:demo_obj::kobject	file:
+kobject_demo_exit	kobject_demo.c	/^module_exit(kobject_demo_exit);$/;"	v
+kobject_demo_exit	kobject_demo.c	/^static void __exit kobject_demo_exit(void)$/;"	f	file:
+kobject_demo_init	kobject_demo.c	/^module_init(kobject_demo_init);$/;"	v
+kobject_demo_init	kobject_demo.c	/^static int __init kobject_demo_init(void)$/;"	f	file:
+kset_demo	kset_demo.c	/^static struct kset *kset_demo;$/;"	v	typeref:struct:kset	file:
+kset_demo_exit	kset_demo.c	/^module_exit(kset_demo_exit);$/;"	v
+kset_demo_exit	kset_demo.c	/^static void __exit kset_demo_exit(void)$/;"	f	file:
+kset_demo_init	kset_demo.c	/^module_init(kset_demo_init);$/;"	v
+kset_demo_init	kset_demo.c	/^static int __init kset_demo_init(void)$/;"	f	file:
+kt	hrtimer_demo.c	/^ktime_t kt;$/;"	v
+kthread_create_demo_exit	kthread_create_demo.c	/^module_exit(kthread_create_demo_exit);$/;"	v
+kthread_create_demo_exit	kthread_create_demo.c	/^static void __exit kthread_create_demo_exit(void)$/;"	f	file:
+kthread_create_demo_init	kthread_create_demo.c	/^module_init(kthread_create_demo_init);$/;"	v
+kthread_create_demo_init	kthread_create_demo.c	/^static int __init kthread_create_demo_init(void)$/;"	f	file:
+ldd_bus	lddbus.c	/^struct device ldd_bus = {$/;"	v	typeref:struct:device
+ldd_bus_exit	lddbus.c	/^module_exit(ldd_bus_exit);$/;"	v
+ldd_bus_exit	lddbus.c	/^static void ldd_bus_exit(void)$/;"	f	file:
+ldd_bus_init	lddbus.c	/^module_init(ldd_bus_init);$/;"	v
+ldd_bus_init	lddbus.c	/^static int __init ldd_bus_init(void)$/;"	f	file:
+ldd_bus_release	lddbus.c	/^static void ldd_bus_release(struct device *dev)$/;"	f	file:
+ldd_bus_type	lddbus.c	/^struct bus_type ldd_bus_type = {$/;"	v	typeref:struct:bus_type
+ldd_dev_release	lddbus.c	/^static void ldd_dev_release(struct device *dev)$/;"	f	file:
+ldd_device	lddbus.h	/^struct ldd_device {$/;"	s
+ldd_driver	lddbus.h	/^struct ldd_driver {$/;"	s
+ldd_hotplug	lddbus.c	/^static int ldd_hotplug(struct device *dev, char **envp, int num_envp,$/;"	f	file:
+ldd_match	lddbus.c	/^static int ldd_match(struct device *dev, struct device_driver *driver)$/;"	f	file:
+list	eventfd_demo.c	/^	struct list_head   list;$/;"	m	struct:event_item	typeref:struct:event_item::list_head	file:
+lmax	sysctl_demo.c	/^static unsigned long lmax = 100000;$/;"	v	file:
+lmin	sysctl_demo.c	/^static unsigned long lmin = 128;$/;"	v	file:
+lock	idr_demo.c	/^	spinlock_t lock;$/;"	m	struct:idr_idpool	file:
+lock	rbtree_demo.c	/^	spinlock_t lock; 		\/* protect rb_tree *\/$/;"	m	struct:xnet_kernel_ticket	file:
+major	waitqueue_demo.c	/^static int major = 0;$/;"	v	file:
+max	sysctl_demo.c	/^static int max = 10;$/;"	v	file:
+mid_sysctl_table	sysctl_demo.c	/^static struct ctl_table mid_sysctl_table[] = {$/;"	v	typeref:struct:ctl_table	file:
+min	sysctl_demo.c	/^static int min = 1;$/;"	v	file:
+modparam_demo_exit	mod_param_demo.c	/^module_exit(modparam_demo_exit);$/;"	v
+modparam_demo_exit	mod_param_demo.c	/^static void __exit modparam_demo_exit(void)$/;"	f	file:
+modparam_demo_init	mod_param_demo.c	/^module_init(modparam_demo_init);$/;"	v
+modparam_demo_init	mod_param_demo.c	/^static int __init modparam_demo_init(void)$/;"	f	file:
+module	lddbus.h	/^	struct module *module;$/;"	m	struct:ldd_driver	typeref:struct:ldd_driver::module
+module_permission	procfs_demo2.c	/^static int module_permission(struct inode *inode, int op)$/;"	f	file:
+my_attr	eventfd_demo.c	/^static struct kobj_attribute my_attr = $/;"	v	typeref:struct:kobj_attribute	file:
+my_attr	sysfs_demo1.c	/^static struct kobj_attribute my_attr = $/;"	v	typeref:struct:kobj_attribute	file:
+my_data	notifier_demo.c	/^struct my_data {$/;"	s	file:
+my_data	seqfile_demo.c	/^struct my_data {$/;"	s	file:
+my_data	timer_demo.c	/^struct my_data {$/;"	s	file:
+my_event_handler1	notifier_demo.c	/^my_event_handler1(struct notifier_block *self, unsigned long val, void *data)$/;"	f	file:
+my_event_handler2	notifier_demo.c	/^my_event_handler2(struct notifier_block *self, unsigned long val, void *data)$/;"	f	file:
+my_eventfd_show	eventfd_demo.c	/^static ssize_t my_eventfd_show(struct kobject *kobj, struct kobj_attribute *attr, char *buf)$/;"	f	file:
+my_eventfd_store	eventfd_demo.c	/^static ssize_t my_eventfd_store(struct kobject *kobj, struct kobj_attribute *attr,$/;"	f	file:
+my_fs_type	fs_demo/myfs_super.c	/^struct file_system_type my_fs_type = {$/;"	v	typeref:struct:file_system_type
+my_htable	htable_fix_length.c	/^static struct hlist_head my_htable[HTABLE_SIZE];$/;"	v	typeref:struct:hlist_head	file:
+my_htable_delete_by_name	htable_fix_length.c	/^static void my_htable_delete_by_name(struct my_item *ch)$/;"	f	file:
+my_htable_find_by_name	htable_fix_length.c	/^static struct my_item *my_htable_find_by_name(char *name, size_t name_len)$/;"	f	file:
+my_htable_insert_by_name	htable_fix_length.c	/^static long my_htable_insert_by_name(struct my_item *new_ch)$/;"	f	file:
+my_htable_lock	htable_fix_length.c	/^static spinlock_t my_htable_lock; 	\/* used to protect my_htable *\/$/;"	v	file:
+my_item	htable_fix_length.c	/^struct my_item {$/;"	s	file:
+my_item_alloc	htable_fix_length.c	/^static struct my_item * my_item_alloc(char *name, int length)$/;"	f	file:
+my_item_get	htable_fix_length.c	/^static inline void my_item_get(struct my_item *ch)$/;"	f	file:
+my_item_put	htable_fix_length.c	/^static inline void my_item_put(struct my_item *ch)$/;"	f	file:
+my_notifier1	notifier_demo.c	/^static struct notifier_block my_notifier1 = {$/;"	v	typeref:struct:notifier_block	file:
+my_notifier2	notifier_demo.c	/^static struct notifier_block my_notifier2 = {$/;"	v	typeref:struct:notifier_block	file:
+my_procfile_fops	procfs_demo2.c	/^static struct file_operations my_procfile_fops = {$/;"	v	typeref:struct:file_operations	file:
+my_procfile_iops	procfs_demo2.c	/^static struct inode_operations my_procfile_iops = {$/;"	v	typeref:struct:inode_operations	file:
+my_sysctl_table	sysctl_demo.c	/^static struct ctl_table my_sysctl_table[] = {$/;"	v	typeref:struct:ctl_table	file:
+my_task	kthread_create_demo.c	/^struct task_struct *my_task;$/;"	v	typeref:struct:task_struct
+my_thread	kernel_thread_demo.c	/^static int my_thread(void *unused)$/;"	f	file:
+my_thread	kthread_create_demo.c	/^static int my_thread(void *unused)$/;"	f	file:
+myevent_lock	tmp.c	/^rwlock_t myevent_lock;$/;"	v
+myfile_show	sysfs_demo1.c	/^static ssize_t myfile_show(struct kobject *kobj, struct kobj_attribute *attr, char *buf)$/;"	f	file:
+myfile_store	sysfs_demo1.c	/^static ssize_t myfile_store(struct kobject *kobj, struct kobj_attribute *attr,$/;"	f	file:
+myfs-objs	fs_demo/Makefile	/^myfs-objs := myfs.o myfs_super.o$/;"	m
+myfs_get_sb	fs_demo/myfs_super.c	/^static int myfs_get_sb(struct file_system_type *fs_type, int flags,$/;"	f	file:
+myfs_kill_super	fs_demo/myfs_super.c	/^static void myfs_kill_super(struct super_block *s)$/;"	f	file:
+mykthread	tmp.c	/^static int mykthread(void *unused)$/;"	f	file:
+mystring	sysctl_demo.c	/^static char mystring[MY_MAX_SIZE];$/;"	v	file:
+name	htable_fix_length.c	/^	char name[NAME_LENGTH];$/;"	m	struct:my_item	file:
+name	lddbus.h	/^	char *name;$/;"	m	struct:ldd_device
+need_exit	kernel_thread_demo.c	/^int need_exit = 0; $/;"	v
+next_fortune	procfs_demo1.c	/^static int next_fortune;  \/\/ Index to read next fortune$/;"	v	file:
+node	rbtree_demo.c	/^	struct rb_node node;$/;"	m	struct:xnet_user_ticket	typeref:struct:xnet_user_ticket::rb_node	file:
+notifier_demo_exit	notifier_demo.c	/^module_exit(notifier_demo_exit);$/;"	v
+notifier_demo_exit	notifier_demo.c	/^static void __exit notifier_demo_exit(void)$/;"	f	file:
+notifier_demo_init	notifier_demo.c	/^module_init(notifier_demo_init);$/;"	v
+notifier_demo_init	notifier_demo.c	/^static int __init notifier_demo_init(void)$/;"	f	file:
+nr_array	mod_param_demo.c	/^static int nr_array;$/;"	v	file:
+obj-m	Makefile	/^obj-m := timer_demo.o$/;"	m
+obj-m	fs_demo/Makefile	/^obj-m := myfs.o$/;"	m
+obj-m	mod_symbol/bar/Makefile	/^obj-m := bar.o$/;"	m
+obj-m	mod_symbol/foo/Makefile	/^obj-m := foo.o$/;"	m
+obj-y	mod_symbol/Makefile	/^obj-y := foo\/ bar\/$/;"	m
+path_demo_exit	fd_to_path.c	/^module_exit(path_demo_exit);$/;"	v
+path_demo_exit	fd_to_path.c	/^static void __exit path_demo_exit(void)$/;"	f	file:
+path_demo_init	fd_to_path.c	/^module_init(path_demo_init);$/;"	v
+path_demo_init	fd_to_path.c	/^static int __init path_demo_init(void)$/;"	f	file:
+pid	fd_to_path.c	/^static uint pid = 1;$/;"	v	file:
+pool	idr_demo.c	/^	struct idr pool;$/;"	m	struct:idr_idpool	typeref:struct:idr_idpool::idr	file:
+proc_demo1_exit	procfs_demo1.c	/^module_exit(proc_demo1_exit);$/;"	v
+proc_demo1_exit	procfs_demo1.c	/^static void proc_demo1_exit(void)$/;"	f	file:
+proc_demo1_exit	tmp.c	/^module_exit(proc_demo1_exit);$/;"	v
+proc_demo1_init	procfs_demo1.c	/^module_init(proc_demo1_init);$/;"	v
+proc_demo1_init	procfs_demo1.c	/^static int proc_demo1_init(void)$/;"	f	file:
+proc_demo2_exit	procfs_demo2.c	/^module_exit(proc_demo2_exit);$/;"	v
+proc_demo2_exit	procfs_demo2.c	/^static void __exit proc_demo2_exit(void)$/;"	f	file:
+proc_demo2_init	procfs_demo2.c	/^module_init(proc_demo2_init);$/;"	v
+proc_demo2_init	procfs_demo2.c	/^static int __init proc_demo2_init(void)$/;"	f	file:
+proc_dir	procfs_demo1.c	/^static struct proc_dir_entry *proc_dir;$/;"	v	typeref:struct:proc_dir_entry	file:
+procfs_buffer	procfs_demo2.c	/^static char procfs_buffer[PROCFS_MAX_SIZE];  \/\/The buffer (2k) for this module$/;"	v	file:
+procfs_buffer_size	procfs_demo2.c	/^static unsigned long procfs_buffer_size = 0; \/\/The size of the data hold in the buffer$/;"	v	file:
+procfs_close	procfs_demo2.c	/^static int procfs_close(struct inode *inode, struct file *file)$/;"	f	file:
+procfs_open	procfs_demo2.c	/^static int procfs_open(struct inode *inode, struct file *file)$/;"	f	file:
+procfs_read	procfs_demo2.c	/^procfs_read(struct file *filp, char *buffer, size_t length, loff_t * offset)$/;"	f	file:
+procfs_write	procfs_demo2.c	/^procfs_write(struct file *file, const char *buffer, size_t len, loff_t * off)$/;"	f	file:
+qdisc_class_hash_destroy	htable_variable_length.c	/^EXPORT_SYMBOL(qdisc_class_hash_destroy);$/;"	v
+qdisc_class_hash_destroy	htable_variable_length.c	/^void qdisc_class_hash_destroy(struct Qdisc_class_hash *clhash)$/;"	f
+qdisc_class_hash_insert	htable_variable_length.c	/^EXPORT_SYMBOL(qdisc_class_hash_insert);$/;"	v
+qdisc_class_hash_insert	htable_variable_length.c	/^void qdisc_class_hash_insert(struct Qdisc_class_hash *clhash,$/;"	f
+qdisc_class_hash_remove	htable_variable_length.c	/^EXPORT_SYMBOL(qdisc_class_hash_remove);$/;"	v
+qdisc_class_hash_remove	htable_variable_length.c	/^void qdisc_class_hash_remove(struct Qdisc_class_hash *clhash,$/;"	f
+refcnt	rbtree_demo.c	/^	atomic_t refcnt;$/;"	m	struct:xnet_user_ticket	file:
+register_ldd_device	lddbus.c	/^EXPORT_SYMBOL(register_ldd_device);$/;"	v
+register_ldd_device	lddbus.c	/^int register_ldd_device(struct ldd_device *ldddev)$/;"	f
+register_ldd_driver	lddbus.c	/^EXPORT_SYMBOL(register_ldd_driver);$/;"	v
+register_ldd_driver	lddbus.c	/^int register_ldd_driver(struct ldd_driver *driver)$/;"	f
+restart	hrtimer_demo.c	/^static int restart = 0;$/;"	v	file:
+sch_tree_lock	htable_variable_length.c	/^static inline void sch_tree_lock(const struct Qdisc *q)$/;"	f	file:
+seqfile_demo_exit	seqfile_demo.c	/^module_exit(seqfile_demo_exit);$/;"	v
+seqfile_demo_exit	seqfile_demo.c	/^static void __exit seqfile_demo_exit(void)$/;"	f	file:
+seqfile_demo_init	seqfile_demo.c	/^module_init(seqfile_demo_init);$/;"	v
+seqfile_demo_init	seqfile_demo.c	/^static int __init seqfile_demo_init(void)$/;"	f	file:
+seqfile_next	seqfile_demo.c	/^static void *seqfile_next(struct seq_file *s, void *v, loff_t *pos)$/;"	f	file:
+seqfile_ops	seqfile_demo.c	/^static struct seq_operations seqfile_ops = {$/;"	v	typeref:struct:seq_operations	file:
+seqfile_show	seqfile_demo.c	/^static int seqfile_show(struct seq_file *s, void *v)$/;"	f	file:
+seqfile_start	seqfile_demo.c	/^static void *seqfile_start(struct seq_file *s, loff_t *pos)$/;"	f	file:
+seqfile_stop	seqfile_demo.c	/^static void seqfile_stop(struct seq_file *s, void *v)$/;"	f	file:
+show	configfs_example_explicit.c	/^	ssize_t (*show)(struct childless *, char *);$/;"	m	struct:childless_attribute	file:
+show	kset_demo.c	/^	ssize_t (*show)(struct demo_obj *foo, struct demo_attribute *attr, char *buf);$/;"	m	struct:demo_attribute	file:
+show_bus_version	lddbus.c	/^static ssize_t show_bus_version(struct bus_type *bus, char *buf)$/;"	f	file:
+show_version	lddbus.c	/^static ssize_t show_version(struct device_driver *driver, char *buf)$/;"	f	file:
+showme	configfs_example_explicit.c	/^	int showme;$/;"	m	struct:childless	file:
+showme	configfs_example_macros.c	/^	int showme;$/;"	m	struct:childless	file:
+simple_child	configfs_example_explicit.c	/^struct simple_child {$/;"	s	file:
+simple_child	configfs_example_macros.c	/^struct simple_child {$/;"	s	file:
+simple_child_attr_show	configfs_example_explicit.c	/^static ssize_t simple_child_attr_show(struct config_item *item,$/;"	f	file:
+simple_child_attr_show	configfs_example_macros.c	/^static ssize_t simple_child_attr_show(struct config_item *item,$/;"	f	file:
+simple_child_attr_store	configfs_example_explicit.c	/^static ssize_t simple_child_attr_store(struct config_item *item,$/;"	f	file:
+simple_child_attr_store	configfs_example_macros.c	/^static ssize_t simple_child_attr_store(struct config_item *item,$/;"	f	file:
+simple_child_attr_storeme	configfs_example_explicit.c	/^static struct configfs_attribute simple_child_attr_storeme = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_attr_storeme	configfs_example_macros.c	/^static struct configfs_attribute simple_child_attr_storeme = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_attrs	configfs_example_explicit.c	/^static struct configfs_attribute *simple_child_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_attrs	configfs_example_macros.c	/^static struct configfs_attribute *simple_child_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_child_item_ops	configfs_example_explicit.c	/^static struct configfs_item_operations simple_child_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_child_item_ops	configfs_example_macros.c	/^static struct configfs_item_operations simple_child_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_child_release	configfs_example_explicit.c	/^static void simple_child_release(struct config_item *item)$/;"	f	file:
+simple_child_release	configfs_example_macros.c	/^static void simple_child_release(struct config_item *item)$/;"	f	file:
+simple_child_type	configfs_example_explicit.c	/^static struct config_item_type simple_child_type = {$/;"	v	typeref:struct:config_item_type	file:
+simple_child_type	configfs_example_macros.c	/^static struct config_item_type simple_child_type = {$/;"	v	typeref:struct:config_item_type	file:
+simple_children	configfs_example_explicit.c	/^struct simple_children {$/;"	s	file:
+simple_children	configfs_example_macros.c	/^struct simple_children {$/;"	s	file:
+simple_children_attr_description	configfs_example_explicit.c	/^static struct configfs_attribute simple_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_attr_description	configfs_example_macros.c	/^static struct configfs_attribute simple_children_attr_description = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_attr_show	configfs_example_explicit.c	/^static ssize_t simple_children_attr_show(struct config_item *item,$/;"	f	file:
+simple_children_attr_show	configfs_example_macros.c	/^static ssize_t simple_children_attr_show(struct config_item *item,$/;"	f	file:
+simple_children_attrs	configfs_example_explicit.c	/^static struct configfs_attribute *simple_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_attrs	configfs_example_macros.c	/^static struct configfs_attribute *simple_children_attrs[] = {$/;"	v	typeref:struct:configfs_attribute	file:
+simple_children_group_ops	configfs_example_explicit.c	/^static struct configfs_group_operations simple_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+simple_children_group_ops	configfs_example_macros.c	/^static struct configfs_group_operations simple_children_group_ops = {$/;"	v	typeref:struct:configfs_group_operations	file:
+simple_children_item_ops	configfs_example_explicit.c	/^static struct configfs_item_operations simple_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_children_item_ops	configfs_example_macros.c	/^static struct configfs_item_operations simple_children_item_ops = {$/;"	v	typeref:struct:configfs_item_operations	file:
+simple_children_make_item	configfs_example_explicit.c	/^static struct config_item *simple_children_make_item(struct config_group *group, const char *name)$/;"	f	file:
+simple_children_make_item	configfs_example_macros.c	/^static struct config_item *simple_children_make_item(struct config_group *group, const char *name)$/;"	f	file:
+simple_children_release	configfs_example_explicit.c	/^static void simple_children_release(struct config_item *item)$/;"	f	file:
+simple_children_release	configfs_example_macros.c	/^static void simple_children_release(struct config_item *item)$/;"	f	file:
+simple_children_subsys	configfs_example_explicit.c	/^static struct configfs_subsystem simple_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+simple_children_subsys	configfs_example_macros.c	/^static struct configfs_subsystem simple_children_subsys = {$/;"	v	typeref:struct:configfs_subsystem	file:
+simple_children_type	configfs_example_explicit.c	/^static struct config_item_type simple_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+simple_children_type	configfs_example_macros.c	/^static struct config_item_type simple_children_type = {$/;"	v	typeref:struct:config_item_type	file:
+store	configfs_example_explicit.c	/^	ssize_t (*store)(struct childless *, const char *, size_t);$/;"	m	struct:childless_attribute	file:
+store	kset_demo.c	/^	ssize_t (*store)(struct demo_obj *foo, struct demo_attribute *attr, const char *buf, size_t count);$/;"	m	struct:demo_attribute	file:
+storeme	configfs_example_explicit.c	/^	int storeme;$/;"	m	struct:childless	file:
+storeme	configfs_example_explicit.c	/^	int storeme;$/;"	m	struct:simple_child	file:
+storeme	configfs_example_macros.c	/^	int storeme;$/;"	m	struct:childless	file:
+storeme	configfs_example_macros.c	/^	int storeme;$/;"	m	struct:simple_child	file:
+subsys	configfs_example_explicit.c	/^	struct configfs_subsystem subsys;$/;"	m	struct:childless	typeref:struct:childless::configfs_subsystem	file:
+subsys	configfs_example_macros.c	/^	struct configfs_subsystem subsys;$/;"	m	struct:childless	typeref:struct:childless::configfs_subsystem	file:
+sysctl_demo_exit	htable_variable_length.c	/^module_exit(sysctl_demo_exit);$/;"	v
+sysctl_demo_exit	htable_variable_length.c	/^static void __exit sysctl_demo_exit(void)$/;"	f	file:
+sysctl_demo_exit	sysctl_demo.c	/^module_exit(sysctl_demo_exit);$/;"	v
+sysctl_demo_exit	sysctl_demo.c	/^static void __exit sysctl_demo_exit(void)$/;"	f	file:
+sysctl_demo_header	sysctl_demo.c	/^static struct ctl_table_header *sysctl_demo_header;$/;"	v	typeref:struct:ctl_table_header	file:
+sysctl_demo_init	htable_variable_length.c	/^module_init(sysctl_demo_init);$/;"	v
+sysctl_demo_init	htable_variable_length.c	/^static int __init sysctl_demo_init(void)$/;"	f	file:
+sysctl_demo_init	sysctl_demo.c	/^module_init(sysctl_demo_init);$/;"	v
+sysctl_demo_init	sysctl_demo.c	/^static int __init sysctl_demo_init(void)$/;"	f	file:
+sysctl_demo_root_table	sysctl_demo.c	/^static struct ctl_table sysctl_demo_root_table = {$/;"	v	typeref:struct:ctl_table	file:
+sysfs_demo1_exit	sysfs_demo1.c	/^module_exit(sysfs_demo1_exit);$/;"	v
+sysfs_demo1_exit	sysfs_demo1.c	/^static void __exit sysfs_demo1_exit(void)$/;"	f	file:
+sysfs_demo1_init	sysfs_demo1.c	/^module_init(sysfs_demo1_init);$/;"	v
+sysfs_demo1_init	sysfs_demo1.c	/^static int __init sysfs_demo1_init(void)$/;"	f	file:
+timer	hrtimer_demo.c	/^static struct hrtimer timer;$/;"	v	typeref:struct:hrtimer	file:
+timer	timer_demo.c	/^static struct timer_list timer;$/;"	v	typeref:struct:timer_list	file:
+timer_demo_exit_module	hrtimer_demo.c	/^module_exit(timer_demo_exit_module);$/;"	v
+timer_demo_exit_module	hrtimer_demo.c	/^static void __exit timer_demo_exit_module(void)$/;"	f	file:
+timer_demo_exit_module	timer_demo.c	/^module_exit(timer_demo_exit_module);$/;"	v
+timer_demo_exit_module	timer_demo.c	/^static void __exit timer_demo_exit_module(void)$/;"	f	file:
+timer_demo_init_module	hrtimer_demo.c	/^module_init(timer_demo_init_module);$/;"	v
+timer_demo_init_module	hrtimer_demo.c	/^static int __init timer_demo_init_module(void)$/;"	f	file:
+timer_demo_init_module	timer_demo.c	/^module_init(timer_demo_init_module);$/;"	v
+timer_demo_init_module	timer_demo.c	/^static int __init timer_demo_init_module(void)$/;"	f	file:
+timer_demo_timerout	timer_demo.c	/^static void timer_demo_timerout(unsigned long data)$/;"	f	file:
+to_childless	configfs_example_explicit.c	/^static inline struct childless *to_childless(struct config_item *item)$/;"	f	file:
+to_childless	configfs_example_macros.c	/^static inline struct childless *to_childless(struct config_item *item)$/;"	f	file:
+to_demo_obj	kset_demo.c	33;"	d	file:
+to_foo_attr	kset_demo.c	41;"	d	file:
+to_ldd_device	lddbus.h	21;"	d
+to_ldd_driver	lddbus.h	13;"	d
+to_simple_child	configfs_example_explicit.c	/^static inline struct simple_child *to_simple_child(struct config_item *item)$/;"	f	file:
+to_simple_child	configfs_example_macros.c	/^static inline struct simple_child *to_simple_child(struct config_item *item)$/;"	f	file:
+to_simple_children	configfs_example_explicit.c	/^static inline struct simple_children *to_simple_children(struct config_item *item)$/;"	f	file:
+to_simple_children	configfs_example_macros.c	/^static inline struct simple_children *to_simple_children(struct config_item *item)$/;"	f	file:
+unregister_ldd_device	lddbus.c	/^EXPORT_SYMBOL(unregister_ldd_device);$/;"	v
+unregister_ldd_device	lddbus.c	/^void unregister_ldd_device(struct ldd_device *ldddev)$/;"	f
+unregister_ldd_driver	lddbus.c	/^EXPORT_SYMBOL(unregister_ldd_driver);$/;"	v
+unregister_ldd_driver	lddbus.c	/^void unregister_ldd_driver(struct ldd_driver *driver)$/;"	f
+user_ticket_delete	rbtree_demo.c	/^static inline void user_ticket_delete(struct xnet_user_ticket *ticket)$/;"	f	file:
+user_ticket_destroy_all	rbtree_demo.c	/^static inline void user_ticket_destroy_all(void)$/;"	f	file:
+user_ticket_insert	rbtree_demo.c	/^static inline int user_ticket_insert(struct xnet_user_ticket *user_ticket)$/;"	f	file:
+user_tickets	rbtree_demo.c	/^	struct rb_root user_tickets;$/;"	m	struct:xnet_kernel_ticket	typeref:struct:xnet_kernel_ticket::rb_root	file:
+user_tickets_lookup	rbtree_demo.c	/^static inline struct xnet_user_ticket *user_tickets_lookup(__u32 port)$/;"	f	file:
+v1	seqfile_demo.c	/^	unsigned v1;$/;"	m	struct:my_data	file:
+v1	timer_demo.c	/^	unsigned v1;$/;"	m	struct:my_data	file:
+v2	seqfile_demo.c	/^	unsigned v2;$/;"	m	struct:my_data	file:
+v2	timer_demo.c	/^	unsigned v2;$/;"	m	struct:my_data	file:
+v9fs_super_ops	fs_demo/myfs_super.c	/^static const struct super_operations v9fs_super_ops = {$/;"	v	typeref:struct:super_operations	file:
+v9fs_super_ops	fs_demo/myfs_super.c	/^static const struct super_operations v9fs_super_ops;$/;"	v	typeref:struct:super_operations	file:
+val	sysfs_demo1.c	/^static unsigned long val = 0;$/;"	v	file:
+val1	sysctl_demo.c	/^static int val1 = 0;	 \/*0:disable , 1 :enable *\/$/;"	v	file:
+val2	sysctl_demo.c	/^static int val2 = 1;	$/;"	v	file:
+val3	sysctl_demo.c	/^static unsigned long val3 = 0; 	$/;"	v	file:
+value_a	debugfs_demo.c	/^static u8 value_a = 0;$/;"	v	file:
+value_b	debugfs_demo.c	/^static struct debugfs_blob_wrapper value_b;$/;"	v	typeref:struct:debugfs_blob_wrapper	file:
+version	lddbus.h	/^	char *version;$/;"	m	struct:ldd_driver
+version_attr	lddbus.h	/^	struct driver_attribute version_attr;$/;"	m	struct:ldd_driver	typeref:struct:ldd_driver::driver_attribute
+waitqueue_demo_exit	waitqueue_demo.c	/^module_exit(waitqueue_demo_exit);$/;"	v
+waitqueue_demo_exit	waitqueue_demo.c	/^static void __exit waitqueue_demo_exit(void)$/;"	f	file:
+waitqueue_demo_fops	waitqueue_demo.c	/^struct file_operations waitqueue_demo_fops = {$/;"	v	typeref:struct:file_operations
+waitqueue_demo_init	waitqueue_demo.c	/^module_init(waitqueue_demo_init);$/;"	v
+waitqueue_demo_init	waitqueue_demo.c	/^static int __init waitqueue_demo_init(void)$/;"	f	file:
+waitqueue_demo_read	waitqueue_demo.c	/^ssize_t waitqueue_demo_read (struct file *filp, char __user *buf, size_t count, loff_t *pos)$/;"	f
+waitqueue_demo_write	waitqueue_demo.c	/^ssize_t waitqueue_demo_write (struct file *filp, const char __user *buf, size_t count, loff_t *pos)$/;"	f
+xnet_kernel_ticket	rbtree_demo.c	/^struct xnet_kernel_ticket {$/;"	s	file:
+xnet_user_ticket	rbtree_demo.c	/^struct xnet_user_ticket {$/;"	s	file:

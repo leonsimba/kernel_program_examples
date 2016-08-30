@@ -1,0 +1,4 @@
+probe process("./test").function("*")
+{
+    printf("%s(%s)\n", probefunc(), $$parms)
+}

@@ -1,0 +1,32 @@
+# Comment/uncomment the following line to disable/enable debugging
+# DEBUG = y or make DEBUG=y
+
+# Add your debugging flag (or not) to CFLAGS
+ifeq ($(DEBUG),y)
+  DEBFLAGS = -O -g -DSCULL_DEBUG # "-O" is needed to expand inlines
+else
+  DEBFLAGS = -O2
+endif
+
+EXTRA_CFLAGS += $(DEBFLAGS)
+EXTRA_CFLAGS += -I$(LDDINC)
+
+ifneq ($(KERNELRELEASE),)
+# call from kernel build system
+
+obj-m	:= scull.o
+scull-objs := scull_simple.o
+
+else
+
+KERNELDIR ?= /lib/modules/$(shell uname -r)/build
+PWD       := $(shell pwd)
+
+modules:
+	$(MAKE) -C $(KERNELDIR) M=$(PWD) LDDINC=$(PWD)/../include modules
+
+endif
+
+clean:
+	rm -rf *.o .*.cmd *.ko *.mod.c *.unsigned .tmp*_versions
+	rm -f Module.symvers modules.order
