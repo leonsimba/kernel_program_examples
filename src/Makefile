@@ -23,6 +23,13 @@ obj-m += procfs_demo2.o
 # notifer
 obj-m += notifier.o
 
+# debug
+obj-m += kprobe_demo.o
+obj-m += jprobe_demo.o
+
+# Linux device & driver model
+obj-m += kobject.o
+
 else
 
 VERSION = $(shell cat version)
