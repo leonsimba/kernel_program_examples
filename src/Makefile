@@ -29,6 +29,7 @@ obj-m += jprobe_demo.o
 
 # Linux device & driver model
 obj-m += kobject.o
+obj-m += kobject_sysfs.o
 
 else
 
